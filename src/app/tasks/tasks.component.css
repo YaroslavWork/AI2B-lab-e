@@ -1,5 +1,7 @@
 .form-group {
-  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 label {
@@ -15,30 +17,14 @@ input[type="date"] {
   box-sizing: border-box;
 }
 
-.btn {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
-}
-
-.tasks {
-  display: flex;
-  flex-wrap: wrap;
+.tasks .task-card {
+  margin-bottom: 10px;
 }
 
 .task {
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 5px;
-  background-color: #fff;
   margin: 0 10px 10px 0;
   width: calc(33.33% - 10px);
   box-sizing: border-box;

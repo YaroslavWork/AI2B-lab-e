@@ -29,16 +29,14 @@ input[type="date"] {
   cursor: not-allowed;
 }
 
-.tasks {
-  display: flex;
-  flex-wrap: wrap;
+.tasks .task-card {
+  margin-bottom: 10px;
 }
 
 .task {
-  border: 1px solid #ddd;
+  border: 1px solid #666;
   padding: 10px;
   border-radius: 5px;
-  background-color: #fff;
   margin: 0 10px 10px 0;
   width: calc(33.33% - 10px);
   box-sizing: border-box;
